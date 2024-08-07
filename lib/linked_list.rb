@@ -119,7 +119,7 @@ class LinkedList
       puts "out of bounds"
       return nil
     elsif index == @size - 1
-      self.pop(value)
+      self.pop
     else
       self.at(index - 1).next_node = self.at(index).next_node # new node next to update next to index+1 node
       @size -= 1
