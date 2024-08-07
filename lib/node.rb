@@ -6,12 +6,4 @@ class Node
     @value = value
     @next_node = nil
   end
-
-  # def value
-  #   @value 
-  # end
-
-  # def next_node 
-  #   @next =
-  # end
 end
